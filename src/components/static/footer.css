@@ -1,0 +1,88 @@
+
+
+.logoFooter{
+    background: url('../imgs/cb-logo-png.png') no-repeat
+    center center;
+    width: 438px;
+    height: 438px;
+    background-size: cover;
+}
+
+footer {
+    background-color: var(--ChocoYellow);
+    height: 100%;
+
+    display: flex;
+    margin: auto;
+    margin-top: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 1700px;
+    
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.container-footer section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+.footer-info{
+    display: flex;
+    flex-wrap: wrap;   
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    max-width: 620px;
+    margin: 20px;
+}
+
+.footer-info:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;   
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    max-width: 410px;
+    margin: 20px;
+}
+
+.footer-info h1{
+    margin: 40px;
+    margin-left: 0px;
+    font-weight: 600;
+    text-align: center;
+}
+
+ul li {
+    color: var(--ChocoWhite) ;
+    cursor: pointer;
+    list-style: none;
+    font-size: 1rem;
+    transition: all 0.4s;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li:hover {
+    color: var(--ChocoBlack) ;
+    cursor: pointer;
+    list-style: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--ChocoPurple) ;
+}

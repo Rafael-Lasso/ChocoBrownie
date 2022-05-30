@@ -1,0 +1,154 @@
+.container-navBar {
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    height: 8vh;
+    background-color: var(--ChocoYellow);
+
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.container-logo{
+    display: flex;
+}
+
+.logo{
+    background: url('../imgs/cb-logo-png.png') no-repeat
+    center center;
+    width: 138px;
+    height: 138px;
+    background-size: cover;
+}
+
+nav header {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+nav header p {
+    font-size: 16px;
+    border-radius: 26px;
+    padding: 4px;
+    background-color: white;
+    color: var(--ChocoBlue);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-menu{
+    cursor: pointer;
+    border-radius: 50% ;
+    padding: 10px;
+}
+
+.mobile-menu div:nth-child(1){
+    background-color: #ffffff;
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.mobile-menu div:nth-child(2){
+    background-color: #ffffff;
+    width: 22px;
+    height: 3px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.mobile-menu div:nth-child(3){
+    background-color: #ffffff;
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.browning{
+    display: flex;
+    margin-right: 12px;
+}
+
+.browning ion-icon {
+    cursor: pointer;
+    font-size: 24px;
+    margin: auto 13px;
+    transition: 1.2s  ease;
+    
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #dc6e00;
+    box-shadow: 5px 5px 10px #0000004b;
+}
+
+.browning ion-icon:hover {
+    cursor: pointer;
+    font-size: 24px;
+    margin: auto 13px;
+    transition: 0.2s  ease-in;
+    transform: scale(1.2);
+
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #dc6e00;
+    box-shadow: 5px 5px 10px #0000004b;
+}
+
+.navlist {
+    top: 8vh;
+    left: -100%;
+    width: 25vw;
+    height: 92vh;
+    position: absolute;
+    background-color: var(--ChocoYellow);
+    z-index: 1;
+    justify-content: space-around;
+}
+
+.navlist .active{
+    display: block;
+    top: 8vh;
+    left: 1;
+    width: 25vw;
+    height: 92vh;
+    position: absolute;
+    background-color: var(--ChocoYellow);
+    z-index: 1;
+    justify-content: space-around;
+}
+
+@media(max-width:727px){
+    .container-navBar{
+        display: block;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .browning{
+        display: none;
+        margin-right: 12px;
+    }
+}
+
+@media(max-width: 538px){
+    .logo{
+        display: none;
+    }
+}

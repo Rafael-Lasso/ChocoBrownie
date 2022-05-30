@@ -1,0 +1,59 @@
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+
+    font-weight: 100;
+    font-family: 'Rajdhani', sans-serif;
+}
+h1 span{
+    color: var(--ChocoPurple);
+    padding: 0px 6px;
+    font-weight: 600;
+}
+
+.container-products {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1460px;
+    margin: auto;
+    justify-content: center;
+}
+
+.container-products div {
+    flex: 1 1 450px;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 380px;
+    max-width: 425px;
+
+    margin: 10px;
+
+    box-shadow: 10px 10px 90px rgba(0, 0, 0, 0.174);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.produtos1 {
+    height: 80%;
+    background: url('../imgs/produto-2.jpg') no-repeat
+    center center;
+    background-size: cover;
+}
+.produtos2 {
+    height: 80%;
+    background: url('../imgs/produto-3.jpg') no-repeat
+    center center;
+    background-size: cover;
+}
+
+.produtos3 {
+    height: 80%;
+    background: url('../imgs/produto-4.jpg') no-repeat
+    center center;
+    background-size: cover;
+}

@@ -1,0 +1,74 @@
+.container-order .Order span {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-order{
+    display: flex;
+    margin: 40px auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Order {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    padding: 22px;
+
+    width: 1100px;
+    background-color: transparent;
+    height: auto;
+    border: 1px solid  ;
+    border-radius: 110px;
+    text-align: center;  
+}
+
+.Order span {
+    text-align: center;
+    align-items: center; 
+    border-left: 2px solid;  
+    font-family: 'Pacifico', cursive;
+}
+
+.Order span:nth-child(1) {
+    text-align: center;
+    align-items: center; 
+    border-left: none;  
+    color: brown;
+    max-width: 254px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.Order span:nth-child(2) {
+    padding: 22px 12px;
+    text-align: center;
+    align-items: center; 
+    color: var(--ChocoRose);
+
+    margin: 10px;
+    max-width: 254px;
+    font-size: 1.6rem;
+    border-left: 2px solid #949494;  
+    border-right: 2px solid #949494;  
+    font-weight: 600;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.Order span:nth-child(3) {
+    padding: 2px 0px;
+    align-items: center; 
+    max-width: 354px;
+    font-size: 1.6rem;
+    border: none;
+    
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Rajdhani', sans-serif;
+}
